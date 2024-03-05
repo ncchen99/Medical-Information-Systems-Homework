@@ -1,5 +1,7 @@
 # 作業二 
 
+將 token 填入範例城市
+
 ```python=
 import requests
 import json
@@ -18,3 +20,7 @@ if __name__ == "__main__":
     r = request(sent, token)
     print(r)
 ```
+
+之後使用 `https://github.com/ckiplab/ckiptagger/wiki/Entity-Types` 提供之表格產生 `entity.yaml` 用來對應 NER 之條目！
+
+小量修改程式後完成~
